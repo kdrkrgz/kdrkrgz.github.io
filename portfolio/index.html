@@ -1,0 +1,55 @@
+---
+layout: page
+title: portfolio
+subtitle: My Professional Journey is Here
+---
+
+<!-- Card1 Start here -->
+<div class="row styled-row">
+  {% for page in site.pages %}
+  {% if page.layout == 'portfolio_post' %}
+  <div class="col-xl-4 col-lg-6 col-md-12 col-sm-12">
+    <a href="{{ page.slug }}">
+      <div class="blog-card spring-fever" style="background-image:url('{{ page.image }}')">
+          <div class="title-content">
+            <h3 class="card-h3">{{ page.title }}</h3>
+              <hr class="card-hr" />
+                <div class="intro">{{ page.subtitle }}</div>
+          </div>
+          <div class="card-info"></div>
+          <div class="utility-info">
+            <ul class="utility-list">
+              <li class="date"><i class="fa fa-calendar"></i>&nbsp; {{ page.date | date_to_string }}</li>
+            </ul>
+          </div>
+        <div class="gradient-overlay"></div>
+        <div class="color-overlay"></div>
+      </div><!-- /.blog-card -->
+    </a>
+  </div>
+  {% endif %}
+  {% endfor %}
+  <hr>
+  <div class="row col-xl-12 col-lg-12 col-md-12 col-sm-12">
+    <div class="container">
+    <table class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+      <thead>
+      <tr>
+        <th style="font-size: 32px"><b>Research Projects</b></th>
+      </tr>
+      </thead>
+      <tbody>
+      {% for page in site.pages %}
+      {% if page.layout == 'project_post' %}
+      <tr>
+        <td><b>{{ page.title }}</b></td>
+      </tr>
+      {% endif %}
+      {% endfor %}
+      </tbody>
+    </table>
+    </div>
+  </div>
+</div>
+<!-- Card1 end here -->
+

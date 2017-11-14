@@ -1,0 +1,37 @@
+<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <div>
+      <img src="/public/images/blurbackcrop.jpg" style="border-radius: 50%">
+    </div>
+
+    <p>Welcome to the internet home of Kadir Karagöz</p>
+    <p>Feel free to look around, check out my portfolio, or get in touch</p>
+    <!-- icons -->
+    <div class="s_icons">
+      <a href="https://github.com/kdrkrgz" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+      <a href="https://tr.linkedin.com/in/kadir-karag%C3%B6z" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+    </div>
+    <!-- end icons -->
+  </div>
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+    <a class="sidebar-nav-item" href="/about">About Me</a>
+    <a class="sidebar-nav-item" href="/resume">Resume</a>
+    <a class="sidebar-nav-item" href="/portfolio">Portfolio</a>
+    <a class="sidebar-nav-item" id="sidebar-skills" href="#">Skills</a>
+    <a class="sidebar-nav-item sidebar-contact" href="#">Contact</a>
+    <!-- <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
+  </nav>
+  <div class="sidebar-item">
+    <p><small>Built with <a href="http://quotesta.com/wp-content/uploads/Steve-Jobs-Quotes-The-Only-Way-To-Do-Great-Work-2.jpg" target="_blank">
+      <i class="fa fa-heart" aria-hidden="true"></i></a> and <a href="#">Jekyll</a></i></small></p>
+    <p><small>
+      &copy; {{ site.time | date: '%Y' }} Kadir Karagöz. All rights reserved.
+    </small></p>
+  </div>
+</div>

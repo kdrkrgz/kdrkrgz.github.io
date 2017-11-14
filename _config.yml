@@ -1,0 +1,71 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           /portfolio/title.html
+
+
+# Setup
+title:               Kadir Karagöz
+tagline:             'Data Scientist and Developer'
+description:         'A Data Scientist Portfolio Building With Jekyll'
+url:                 "http://kdrkrgz.github.io"
+baseurl:             ''
+portfoliourl:        '/portfolio'
+plugins:             [jekyll-paginate, jekyll-assets, jekyll-seo-tag, font-awesome-sass, sass, uglifier]
+paginate:            5
+paginate-path:       "/portfolio/page:num/"
+
+#sass
+sass:
+  style: compressed
+  sass_dir: _assets/css
+
+  load_paths:
+    - _assets
+    - _assets/css
+    - _assets/js
+    - _assets/fonts
+
+
+# About/contact
+author:
+  name:              Kadir Karagöz
+  url:               https://kdrkrgz.github.io
+  email:             karagozkadir@hotmail.com
+
+# Custom vars
+version:             1.1.1
+
+#gems
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-assets
+  - font-awesome-sass
+#assets
+assets:
+  compress:
+    js: false;
+    css: true;
+
+  assets:
+    - "*.jpeg"
+    - "*.jpg"
+    - "*.png"
+    - "*.gif"
+
+assets:
+  sources:
+    - _assets/fonts
+    - _assets/js
+    - _assets/css
+
+#compress
+compress_html:
+  comments: ["<!--", "-->"]
+
+#social:
+#  name: Ben Balter
+#  links:
+#    - https://tr.linkedin.com/in/kadir-karag%C3%B6z
+#    - https://github.com/kdrkrgz
