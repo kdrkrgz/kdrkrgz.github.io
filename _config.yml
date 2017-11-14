@@ -11,7 +11,6 @@ description:         'A Data Scientist Portfolio Building With Jekyll'
 url:                 "http://kdrkrgz.github.io"
 baseurl:             ''
 portfoliourl:        '/portfolio'
-plugins:             [jekyll-paginate, jekyll-assets, jekyll-seo-tag, font-awesome-sass, sass, uglifier]
 paginate:            5
 paginate-path:       "/portfolio/page:num/"
 
@@ -64,8 +63,3 @@ assets:
 compress_html:
   comments: ["<!--", "-->"]
 
-#social:
-#  name: Ben Balter
-#  links:
-#    - https://tr.linkedin.com/in/kadir-karag%C3%B6z
-#    - https://github.com/kdrkrgz
