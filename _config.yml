@@ -17,7 +17,7 @@ paginate-path:       "/portfolio/page:num/"
 #sass
 sass:
   style: compressed
-  sass_dir: _assets/css
+  sass_dir: public/css
 
   load_paths:
     - _assets
@@ -40,7 +40,7 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-assets
-  - font-awesome-sass
+  - sass
 #assets
 assets:
   compress:
