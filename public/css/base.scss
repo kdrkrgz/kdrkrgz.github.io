@@ -1,17 +1,17 @@
-@import 'poole';
-@import 'syntax';
-@import 'lanyon';
+@import '../public/css/poole';
+@import '../public/css/syntax';
+@import '../public/css/lanyon';
 
 // FA
-@import 'font-awesome';
-@import 'font-awesome-sprockets';
+@import '../public/css/font-awesome';
+@import '../public/css/font-awesome-sprockets';
 
 
 // Bootstrap
-@import "bootstrap";
+@import "../public/css/bootstrap";
 
 
-@import 'site';
+@import '../public/css/site';
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
