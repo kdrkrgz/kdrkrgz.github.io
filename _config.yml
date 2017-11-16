@@ -11,6 +11,7 @@ description:         'A Data Scientist Portfolio Building With Jekyll'
 url:                 "http://kdrkrgz.github.io"
 baseurl:             ''
 portfoliourl:        '/portfolio'
+resumeurl:           '/resume'
 paginate:            5
 paginate-path:       "/portfolio/page:num/"
 

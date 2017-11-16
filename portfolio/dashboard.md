@@ -41,7 +41,7 @@ image: /public/images/cards/covers/dashboard-cover.jpg
 
 <a href="/public/images/cards/content/dashboard/Dashboard7.png" data-lightbox="roadtrip">
 <img class="thmb img-thumbnail" src="/public/images/cards/content/dashboard/Dashboard7.png"/></a>
-<div></p>
+<div>
 
 
 

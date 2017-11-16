@@ -1,7 +1,6 @@
 ---
 layout: page
-title: About
-subtitle: All of things about me
+title: About Me
 ---
 
 
@@ -26,7 +25,7 @@ I also developed projects for some scientific meetings and made presentations fo
 </ul>
 <p>Currently I working as data analyst for data collection, analysis, understand data's language and visualization.</p>
 
-<p>And finally, I believe that data science will make the world a better place...</p>
+<p>And finally, I believe data science will make the world a better place...</p>
 
 <p>Have questions or suggestions? Feel free to <a class="sidebar-contact" href="#">Contact Me</a><p>
 
