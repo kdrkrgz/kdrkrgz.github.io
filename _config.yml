@@ -42,6 +42,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-assets
   - sass
+  - jekyll-sitemap
 #assets
 assets:
   compress:
