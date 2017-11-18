@@ -3,6 +3,6 @@ layout: default
 ---
 
 <div class="page">
-  <h1 class="page-title">{{ page.title }}<small class="page-subtitle"> / {{ page.subtitle }}</small><p><hr class="sub-hr"></p></h1>
+  <h1 class="page-title">{{ page.title }}{% if page.subtitle %}<small class="page-subtitle"> / {{ page.subtitle }}</small>{% else %}<p><hr class="sub-hr"></p></h1>
   {{ content }}
 </div>
