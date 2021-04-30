@@ -29,8 +29,8 @@ $(document).ready(function() {
 var ctx = document.getElementById("skills_chart").getContext('2d');
 var software_labels = ["Statistics", "Power BI", "IBM SPSS", "Weka", "QlikView", "Pandas", "Photoshop", "Scikit-learn", "ML", "R", "..."];
 var software_data = [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8];
-var programming_labels = [".Net Core/Classic","Angular", "SQL/NoSQL", "Python", "Django","Entity Framework", "Restful", "Ocelot", "Distributed Cache", "Selenium", "Swagger","IoC/Autofac", "OOP", "AOP", "..."];
-var programming_data = [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8];
+var programming_labels = [".Net Core/Classic","Angular", "Entity Framework", "Web Services", "SQL/NoSQL", "Python", "Django", "OOP", "AOP", "..."];
+var programming_data = [8, 8, 8, 8, 8, 8, 8, 8, 8, 8];
 var programming_title = "Programming";
 var software_title = "Data Science";
 var config = {
@@ -39,7 +39,7 @@ var config = {
     data: {
         labels: software_labels,
         datasets: [{
-            label: 'Level',
+            label: 'not levels just names',
             data: software_data,
             fillOpacity: .3,
             backgroundColor: ['rgba(255, 99, 132, 0.6)', 'rgba(54, 162, 235, 0.6)', 'rgba(255, 206, 86, 0.6)', 'rgba(75, 192, 192, 0.6)', 'rgba(153, 102, 255, 0.6)', 'rgba(255, 159, 64, 0.6)', 'rgba(9, 185, 47, 0.6)', 'rgba(153, 51, 51, 0.6)', 'rgba(153, 51, 153, 0.6)', 'rgba(51, 153, 153, 0.6)'],
