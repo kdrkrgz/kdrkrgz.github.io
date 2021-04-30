@@ -3,31 +3,31 @@ $(document).ready(function() {
         $("body").removeClass("overflow_hidden");
         $("#progress_bar").attr("class", "nodisplay");
         $("#main_window").attr("class", "window animated fadeInDown")
-    }, 2800);
+    }, 2200);
     var lca = ["Integrating Curves...", "Calibrating Blue Skies...", "Fixing Bugs...", "Code Scaffolding...", "Building...", "Debugging..."];
     var randomNumber = Math.floor(Math.random() * lca.length);
     $('#load_content').html(lca[randomNumber])
 });
 $(document).ready(function() {
     var skills_chart = new Chart(ctx, config);
-    $(document).on("click", "#programming-button", function() {
-        var data = skills_chart.config.data;
-        data.type = 'bar';
-        data.datasets[0].data = programming_data;
-        data.labels = programming_labels;
-        skills_chart.config.options.title.text = programming_title;
-        skills_chart.update()
-    }).on("click", "#software-button", function() {
+    $(document).on("click", "#software-button", function() {
         var data = skills_chart.config.data;
         data.type = 'bar';
         data.datasets[0].data = software_data;
         data.labels = software_labels;
         skills_chart.config.options.title.text = software_title;
         skills_chart.update()
+    }).on("click", "#programming-button", function() {
+        var data = skills_chart.config.data;
+        data.type = 'bar';
+        data.datasets[0].data = programming_data;
+        data.labels = programming_labels;
+        skills_chart.config.options.title.text = programming_title;
+        skills_chart.update()
     })
 });
 var ctx = document.getElementById("skills_chart").getContext('2d');
-var software_labels = ["Statistics", "Power BI", "IBM SPSS", "Weka", "QlikView", "Pandas", "Photoshop", "Scikit-learn", "ML", "R", "..."];
+var software_labels = ["Statistics", "Power BI", "IBM SPSS", "Weka", "QlikView", "Pandas", "Scikit-learn", "ML", "R", "..."];
 var software_data = [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8];
 var programming_labels = [".Net Core/Classic","Angular", "Entity Framework", "Web Services", "SQL/NoSQL", "Python", "Django", "OOP", "AOP", "..."];
 var programming_data = [8, 8, 8, 8, 8, 8, 8, 8, 8, 8];
@@ -144,27 +144,7 @@ setTimeout(function() {
         callback: function() {}
     })
 }, 6200);
-// setTimeout(function() {
-//     $(".element4").css("display", "inline-block").typed({
-//         strings: ["I'm passionate about software development"],
-//         typeSpeed: 30,
-//         backDelay: 750,
-//         loop: !1,
-//         loopCount: !1,
-//         callback: function() {}
-//     })
-// }, 10700);
-// setTimeout(function() {
-//     $(".elementx").css("display", "inline-block").typed({
-//         strings: ["understand cause and effect.", "extract decision making insight.", "help machines learn.", "make the world a better place."],
-//         typeSpeed: 30,
-//         backDelay: 750,
-//         loop: !1,
-//         loopCount: !1,
-//         callback: function() {}
-//     })
-// }, 13700);
 setTimeout(function() {
     $(".options").css("display", "inherit");
     $("#input-form").css("display", "inherit")
-}, 10700)
+}, 9500)
