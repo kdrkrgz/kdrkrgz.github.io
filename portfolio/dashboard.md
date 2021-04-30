@@ -9,12 +9,12 @@ modal: test-modal
 image: /public/images/cards/covers/dashboard-cover.jpg
 ---
 
-<p>Dashboard is a dynamic management support application and purpose of the dashboard app;</p>
+<p>Dashboard is a dynamic management support application and purpose of the app;</p>
 <ul>
 <li>Dashboard provides on-demand access of all core metrics interdepartmentally.
-<li>To make highh accuracy predictions
+<li>To make high accuracy predictions
 <li>Create easy reports with dynamic reporting system
-<li>Increase the availability and usability of all data in the organization
+<li>Increase the availability of all data in the organization
 <li>Helps decision makers understand what happened, why and how to implement change for better results
 <li>Visualize the data for make them understandable
 <p>

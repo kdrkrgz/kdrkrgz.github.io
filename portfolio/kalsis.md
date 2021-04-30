@@ -9,9 +9,9 @@ modal: test-modal
 image: /public/images/cards/covers/kalsis-cover.jpg
 ---
 
-<p>KALSIS news and document publishing application,</p>
+<p>KALSIS, is quality documents management and publishing system,</p>
 
-> The apllication built with Django and Python.
+> The apllication built with Python/Django and C#/.Net MVC
 
 <div class="row">
 

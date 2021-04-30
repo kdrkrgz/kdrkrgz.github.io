@@ -8,7 +8,7 @@ subtitle: Basic Student Management System
 image: /public/images/cards/covers/kmsis-cover.jpg
 ---
 
-<p>KMSIS a simple student information management system
+<p>KMSIS a simple students data management system
 
 > The apllication built with Django and Python.
 
